@@ -59,7 +59,8 @@ h3{
     box-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
 }
 
-a{
+
+.vmas{
     position: absolute;
     z-index: 1;
     background-color: #00669F;
@@ -72,6 +73,23 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: white;
+}
+
+.boton{
+    position: sticky; left: 5px;
+    display: inline-block;
+    left: 93%;
+    bottom: 40%;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    text-align:center;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #00669F;
+    
 }
 
 .corazon{
@@ -178,13 +196,17 @@ span{
         
     }
 
+    .boton{
+        left: 70%;
+    }
+
     .header-sticky{
         margin-bottom: 15%;
     }
 
     .recuadro{
         justify-content: center;
-        left:30%;
+        left:23%;
         margin-bottom: 20%;
         
         
@@ -193,6 +215,7 @@ span{
     footer{
         text-align: center;
     }
+
 
 }
 
@@ -215,7 +238,7 @@ span{
 
     .recuadro{
         justify-content: center;
-        left:19%;
+        left:22%;
         margin-bottom: 35%;
         
         
