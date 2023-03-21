@@ -1,9 +1,9 @@
 <head>
+    <meta charset="utf-8">
 <link rel="stylesheet" href="/css/styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
 </head>
 
 <header>
@@ -49,6 +49,58 @@
         <a class="vmas" href="">ver mas</a>
     </section>
     <a class="boton" href="">+</a>
+
+
+    <section class="formulario">
+        <h2 class="tituloF">Añadi tu super!</h2>
+        <h4 class="subtituloF">Agrega tu personaje favorito completando las opciones</h4>
+        <article class="cajaform">
+            <article class="cajon1">
+                <label class="nombreF" for="nombre">Nombre</label>
+                    <input  class="CNF" type="text" name="nombre" id="nombre" required>
+                
+                <label class="fechaF" for="fecha">Fecha</label>
+                    <input class="CFF" type="date" name="fecha" id="fecha">
+                
+                <textarea  name="descripcion" id="descripcion" placeholder="escriba una breve descripcion"></textarea>
+            </article>
+
+            <article class="cajon2">
+                <label class="especieF" for="especie">Especie</label>
+                    <select class="CEF" name="especie" id="especie">
+                        <optgroup label="Humano">
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </optgroup>
+                        <optgroup label="otros">
+                            <option value="alien">Alien</option>
+                            <option value="reptiliano">reptiliano</option>
+                            <option value="robot">Robot</option>
+                            <option value="metahumano">Meta-Humano</option>
+                        </optgroup>
+                    </select>
+                
+
+                <label class="fotoF" for="foto">Agregar foto</label>
+                    <input class="CF" type="file" name="foto" id="foto" accept=".jpg, .png">
+                
+
+                <label class="poderesF" for="Poderes">Poderes</label>
+                    
+                <input class="CBOX" type="checkbox" name="poderes" id="poderes" value="volar"> volar
+                    <input class="CBOX" type="checkbox" name="poderes" id="poderes" value="super fuerza">Super fuerza
+                    <input class="CBOX" type="checkbox" name="poderes" id="poderes" value="invisibilidad">Invisibilidad
+                    <input class="CBOX" type="checkbox" name="poderes" id="poderes" value="ser rico">Ser Rico
+                
+                <label class="tipoF" for="tipo"> Tipo de Super</label>
+                    <input class="R" type="radio" name="tipo" id="tipo" value="Heroe">Heroe
+                    <input class="R" type="radio" name="tipo" id="tipo" value="Villano">Villano
+                
+                    
+             </article>
+        </article>
+        <input class="submit" type="submit">
+    </section>
     <footer>
         <h4>Todos los derechos reservados a <span>front end 1</span></h4>
     </footer>
